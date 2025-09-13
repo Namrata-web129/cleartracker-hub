@@ -47,6 +47,22 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Financial transparency theme colors
+        trust: {
+          blue: "hsl(var(--trust-blue))",
+          "blue-light": "hsl(var(--trust-blue-light))",
+        },
+        success: {
+          green: "hsl(var(--success-green))",
+          "green-light": "hsl(var(--success-green-light))",
+        },
+        warning: {
+          amber: "hsl(var(--warning-amber))",
+          "amber-light": "hsl(var(--warning-amber-light))",
+        },
+        neutral: {
+          slate: "hsl(var(--neutral-slate))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +73,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-success": "var(--gradient-success)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        soft: "var(--shadow-soft)",
+        medium: "var(--shadow-medium)",
+        strong: "var(--shadow-strong)",
       },
       borderRadius: {
         lg: "var(--radius)",
